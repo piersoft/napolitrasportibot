@@ -12,7 +12,7 @@ function geoJson ($locales)
             $features[] = array(
                     'type' => 'Feature',
                     'geometry' => array('type' => 'Point', 'coordinates' => array((float)$value['geometry']['coordinates'][0],(float)$value['geometry']['coordinates'][1])),
-                    'properties' => array('name' => $value['name'], 'id' => $value['routes_serving_stop']),
+                    'properties' => array('name' => $value['name'], 'id' => $value['onestop_id']),
                     );
             };
 
@@ -122,6 +122,16 @@ overflow-x: hidden;
 </div>
 <div id='loader'><span class='message'>loading</span></div>
 </div>
+<script language="javascript" type="text/javascript">
+<!--
+function popitup(url) {
+	newwindow=window.open(url,'name','height=200,width=150');
+	if (window.focus) {newwindow.focus()}
+	return false;
+}
+
+// -->
+</script>
   <script type="text/javascript">
 		var lat='<?php printf($_GET['lat']); ?>',
         lon='<?php printf($_GET['lon']); ?>',
@@ -215,11 +225,11 @@ function convertTimestamp(timestamp) {
   //  console.log(jsonref);
   var i = 0;
  for (i=0;i<4;i++){
-   microAjax('http://transit.land/api/v1/schedule_stop_pairs?route_onestop_id='+jsonref.properties.id[0].route_onestop_id, function (res) {
+   microAjax('https://transit.land/api/v1/onestop_id/'+jsonref.properties.id, function (res) {
 
    var feat=JSON.parse(res);
    var index;
-   console.log(feat.schedule_stop_pairs[0].destination_arrival_time);
+   console.log(feat.routes_serving_stop);
    console.log(jsonref.properties.id[0]);
 
 //  alert (feat.length);
@@ -227,9 +237,9 @@ var text;
 
 
 
-if(feat['schedule_stop_pairs'].length != "undefined")
+if(feat['routes_serving_stop'].length != "undefined")
 {
-  if(feat['schedule_stop_pairs'].length == "0")
+  if(feat['routes_serving_stop'].length == "0")
   {
   text ="Non ci sono linee in arrivo nelle prossime ore";
   marker.layer.closePopup();
@@ -238,22 +248,22 @@ if(feat['schedule_stop_pairs'].length != "undefined")
   console.log("non ci sono linee");
 }else{
 
-  text ="<b>"+jsonref.properties.name+"</b></br>Prossimo arrivo:</br>Linea: <b>";
-console.log("Feat lenght: "+feat['schedule_stop_pairs'].length);
+  text ="<b>"+jsonref.properties.name+"</b></br> <a href='orari.php?id="+jsonref.properties.id+"'>Clicca per orari</a></br>Linee: <b>";
+console.log("Feat lenght: "+feat['routes_serving_stop'].length);
 //for (i=0;i<feat['schedule_stop_pairs'].length;i++){
-//  for (i=0;i<6;i++){
+ for (i=0;i<feat['routes_serving_stop'].length;i++){
 
     //   // when the tiles load, remove the screen
-    var last=feat['schedule_stop_pairs'][0];
-
+    var last=feat['routes_serving_stop'][i];
+console.log("routes_serving_stop:"+feat['routes_serving_stop'][i]['route_name']);
   //  var text ="Linee servite: "+last['IdLinea']+"<br>";
-    text +=jsonref.properties.id[0].route_name;
-    var orario =last['origin_arrival_time'];
-    text+="</b> alle <b>"+orario;
+    text +="</br>"+last['route_name'];
+//    var orario =last['route_name'];
+//    text+="</b> orario<b>"+orario;
     marker.layer.closePopup();
     marker.layer.bindPopup(text);
     marker.layer.openPopup();
-//  }
+  }
 }
 }
 
@@ -261,6 +271,7 @@ console.log("Feat lenght: "+feat['schedule_stop_pairs'].length);
   );
 }
 }
+
 function startLoading() {
     loader.className = '';
 }

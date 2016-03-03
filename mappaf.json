@@ -12,44 +12,7 @@
             },
             "properties": {
                 "name": "RIVIERA DI CHIAIA 164",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "151",
-                        "route_onestop_id": "r-s-151"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "R7",
-                        "route_onestop_id": "r-sr605-r7"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "N1",
-                        "route_onestop_id": "r-s-n1"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "140",
-                        "route_onestop_id": "r-s-140"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C12",
-                        "route_onestop_id": "r-sr607-c12"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C18",
-                        "route_onestop_id": "r-sr607-c18"
-                    }
-                ]
+                "id": "s-sr607cdc2c-rivieradichiaia164"
             }
         },
         {
@@ -63,44 +26,7 @@
             },
             "properties": {
                 "name": "RIVIERA DI CHIAIA",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "151",
-                        "route_onestop_id": "r-s-151"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "R7",
-                        "route_onestop_id": "r-sr605-r7"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "N1",
-                        "route_onestop_id": "r-s-n1"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "140",
-                        "route_onestop_id": "r-s-140"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C12",
-                        "route_onestop_id": "r-sr607-c12"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C18",
-                        "route_onestop_id": "r-sr607-c18"
-                    }
-                ]
+                "id": "s-sr607c2t6y-rivieradichiaia"
             }
         },
         {
@@ -114,44 +40,7 @@
             },
             "properties": {
                 "name": "RIVIERA DI CHIAIA 109",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "151",
-                        "route_onestop_id": "r-s-151"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "R7",
-                        "route_onestop_id": "r-sr605-r7"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "N1",
-                        "route_onestop_id": "r-s-n1"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "140",
-                        "route_onestop_id": "r-s-140"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C12",
-                        "route_onestop_id": "r-sr607-c12"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C18",
-                        "route_onestop_id": "r-sr607-c18"
-                    }
-                ]
+                "id": "s-sr607c27sd-rivieradichiaia109"
             }
         },
         {
@@ -165,44 +54,7 @@
             },
             "properties": {
                 "name": "RIVIERA DI CHIAIA",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "151",
-                        "route_onestop_id": "r-s-151"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "R7",
-                        "route_onestop_id": "r-sr605-r7"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "N1",
-                        "route_onestop_id": "r-s-n1"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "140",
-                        "route_onestop_id": "r-s-140"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C12",
-                        "route_onestop_id": "r-sr607-c12"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C18",
-                        "route_onestop_id": "r-sr607-c18"
-                    }
-                ]
+                "id": "s-sr607c7xvj-rivieradichiaia"
             }
         },
         {
@@ -216,14 +68,7 @@
             },
             "properties": {
                 "name": "CARDUCCI-MILLE",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "128",
-                        "route_onestop_id": "r-s-128"
-                    }
-                ]
+                "id": "s-sr607czh54-carducci~mille"
             }
         },
         {
@@ -237,20 +82,7 @@
             },
             "properties": {
                 "name": "COLONNA-AMEDEO",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C24",
-                        "route_onestop_id": "r-s-c24"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "128",
-                        "route_onestop_id": "r-s-128"
-                    }
-                ]
+                "id": "s-sr607fn57j-colonna~amedeo"
             }
         },
         {
@@ -264,20 +96,7 @@
             },
             "properties": {
                 "name": "PARCO MARGHERITA-AMEDEO",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C27",
-                        "route_onestop_id": "r-sr605-c27"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "128",
-                        "route_onestop_id": "r-s-128"
-                    }
-                ]
+                "id": "s-sr607fhzv0-parcomargherita~amedeo"
             }
         },
         {
@@ -291,20 +110,7 @@
             },
             "properties": {
                 "name": "PARCO MARGHERITA-SCALINATELLA",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C27",
-                        "route_onestop_id": "r-sr605-c27"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "128",
-                        "route_onestop_id": "r-s-128"
-                    }
-                ]
+                "id": "s-sr607fnxqu-parcomargherita~scalinatella"
             }
         },
         {
@@ -318,26 +124,7 @@
             },
             "properties": {
                 "name": "VITTORIO EMANUELE-PARCO GRIFEO",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C27",
-                        "route_onestop_id": "r-sr605-c27"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C16",
-                        "route_onestop_id": "r-sr607-c16"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "128",
-                        "route_onestop_id": "r-s-128"
-                    }
-                ]
+                "id": "s-sr607f7cc6-vittorioemanuele~parcogrifeo"
             }
         },
         {
@@ -351,26 +138,7 @@
             },
             "properties": {
                 "name": "VITTORIO EMANUELE-TASSO",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C27",
-                        "route_onestop_id": "r-sr605-c27"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C16",
-                        "route_onestop_id": "r-sr607-c16"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "128",
-                        "route_onestop_id": "r-s-128"
-                    }
-                ]
+                "id": "s-sr607f4qun-vittorioemanuele~tasso"
             }
         },
         {
@@ -384,20 +152,7 @@
             },
             "properties": {
                 "name": "TASSO-OSP.INTERNAZIONALE",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C27",
-                        "route_onestop_id": "r-sr605-c27"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "128",
-                        "route_onestop_id": "r-s-128"
-                    }
-                ]
+                "id": "s-sr607dpzmk-tasso~ospinternazionale"
             }
         },
         {
@@ -411,20 +166,7 @@
             },
             "properties": {
                 "name": "TASSO 116",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C27",
-                        "route_onestop_id": "r-sr605-c27"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "128",
-                        "route_onestop_id": "r-s-128"
-                    }
-                ]
+                "id": "s-sr607dpp03-tasso116"
             }
         },
         {
@@ -438,20 +180,7 @@
             },
             "properties": {
                 "name": "TASSO FR. 65",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C27",
-                        "route_onestop_id": "r-sr605-c27"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "128",
-                        "route_onestop_id": "r-s-128"
-                    }
-                ]
+                "id": "s-sr607dpvr6-tassofr65"
             }
         },
         {
@@ -465,20 +194,7 @@
             },
             "properties": {
                 "name": "TASSO 34",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C27",
-                        "route_onestop_id": "r-sr605-c27"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "128",
-                        "route_onestop_id": "r-s-128"
-                    }
-                ]
+                "id": "s-sr607f151f-tasso34"
             }
         },
         {
@@ -492,26 +208,7 @@
             },
             "properties": {
                 "name": "VITTORIO EMANUELE-PARCO MARGHERITA",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C27",
-                        "route_onestop_id": "r-sr605-c27"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C16",
-                        "route_onestop_id": "r-sr607-c16"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "128",
-                        "route_onestop_id": "r-s-128"
-                    }
-                ]
+                "id": "s-sr607f4vb8-vittorioemanuele~parcomargherita"
             }
         },
         {
@@ -525,20 +222,7 @@
             },
             "properties": {
                 "name": "PARCO MARGHERITA-VITTORIO EMANUELE",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C27",
-                        "route_onestop_id": "r-sr605-c27"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "128",
-                        "route_onestop_id": "r-s-128"
-                    }
-                ]
+                "id": "s-sr607fkv2t-parcomargherita~vittorioemanuele"
             }
         },
         {
@@ -552,20 +236,7 @@
             },
             "properties": {
                 "name": "PARCO MARGHERITA 75",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C27",
-                        "route_onestop_id": "r-sr605-c27"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "128",
-                        "route_onestop_id": "r-s-128"
-                    }
-                ]
+                "id": "s-sr607fqs1c-parcomargherita75"
             }
         },
         {
@@ -579,20 +250,7 @@
             },
             "properties": {
                 "name": "PARCO MARGHERITA-SCALINATELLA",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C27",
-                        "route_onestop_id": "r-sr605-c27"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "128",
-                        "route_onestop_id": "r-s-128"
-                    }
-                ]
+                "id": "s-sr607fnryt-parcomargherita~scalinatella"
             }
         },
         {
@@ -606,20 +264,7 @@
             },
             "properties": {
                 "name": "PARCO MARGHERITA-AMEDEO",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C27",
-                        "route_onestop_id": "r-sr605-c27"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "128",
-                        "route_onestop_id": "r-s-128"
-                    }
-                ]
+                "id": "s-sr607fm99u-parcomargherita~amedeo"
             }
         },
         {
@@ -633,20 +278,7 @@
             },
             "properties": {
                 "name": "COLONNA",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C24",
-                        "route_onestop_id": "r-s-c24"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "128",
-                        "route_onestop_id": "r-s-128"
-                    }
-                ]
+                "id": "s-sr607fj5ne-colonna"
             }
         },
         {
@@ -660,20 +292,7 @@
             },
             "properties": {
                 "name": "CARDUCCI 51",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C24",
-                        "route_onestop_id": "r-s-c24"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "128",
-                        "route_onestop_id": "r-s-128"
-                    }
-                ]
+                "id": "s-sr607cyyyu-carducci51"
             }
         },
         {
@@ -687,20 +306,7 @@
             },
             "properties": {
                 "name": "SAN PASQUALE-POERIO",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C24",
-                        "route_onestop_id": "r-s-c24"
-                    },
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "128",
-                        "route_onestop_id": "r-s-128"
-                    }
-                ]
+                "id": "s-sr607cw6x6-sanpasquale~poerio"
             }
         },
         {
@@ -714,14 +320,7 @@
             },
             "properties": {
                 "name": "VITTORIO EMANUELE-FUNICOLARE CHIAIA",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C16",
-                        "route_onestop_id": "r-sr607-c16"
-                    }
-                ]
+                "id": "s-sr607fmpqb-vittorioemanuele~funicolarechiaia"
             }
         },
         {
@@ -735,14 +334,7 @@
             },
             "properties": {
                 "name": "VITTORIO EMANUELE-PARROCCHIA SS.REDENTORE",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C16",
-                        "route_onestop_id": "r-sr607-c16"
-                    }
-                ]
+                "id": "s-sr607dncx0-vittorioemanuele~parrocchiassredentore"
             }
         },
         {
@@ -756,14 +348,7 @@
             },
             "properties": {
                 "name": "VITTORIO EMANUELE-TASSO",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C16",
-                        "route_onestop_id": "r-sr607-c16"
-                    }
-                ]
+                "id": "s-sr607f0bcr-vittorioemanuele~tasso"
             }
         },
         {
@@ -777,14 +362,7 @@
             },
             "properties": {
                 "name": "VITTORIO EMANUELE-FUNICOLARE CHIAIA",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C16",
-                        "route_onestop_id": "r-sr607-c16"
-                    }
-                ]
+                "id": "s-sr607fky25-vittorioemanuele~funicolarechiaia"
             }
         },
         {
@@ -798,14 +376,7 @@
             },
             "properties": {
                 "name": "AMEDEO-METROPOLITANA",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C24",
-                        "route_onestop_id": "r-s-c24"
-                    }
-                ]
+                "id": "s-sr607fhws0-amedeo~metropolitana"
             }
         },
         {
@@ -819,14 +390,7 @@
             },
             "properties": {
                 "name": "CRISPI-AMEDEO",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C24",
-                        "route_onestop_id": "r-s-c24"
-                    }
-                ]
+                "id": "s-sr607f4fjj-crispi~amedeo"
             }
         },
         {
@@ -840,14 +404,7 @@
             },
             "properties": {
                 "name": "CRISPI-PONTANO",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C24",
-                        "route_onestop_id": "r-s-c24"
-                    }
-                ]
+                "id": "s-sr607ccq1q-crispi~pontano"
             }
         },
         {
@@ -861,14 +418,7 @@
             },
             "properties": {
                 "name": "CRISPI-BENEVENTANO",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C24",
-                        "route_onestop_id": "r-s-c24"
-                    }
-                ]
+                "id": "s-sr6079zkjt-crispi~beneventano"
             }
         },
         {
@@ -882,14 +432,7 @@
             },
             "properties": {
                 "name": "CRISPI-ARCO MIRELLI",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C24",
-                        "route_onestop_id": "r-s-c24"
-                    }
-                ]
+                "id": "s-sr6079yerj-crispi~arcomirelli"
             }
         },
         {
@@ -903,14 +446,7 @@
             },
             "properties": {
                 "name": "CRISPI-PONTANO",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C24",
-                        "route_onestop_id": "r-s-c24"
-                    }
-                ]
+                "id": "s-sr607cbuzw-crispi~pontano"
             }
         },
         {
@@ -924,14 +460,7 @@
             },
             "properties": {
                 "name": "CRISPI-NOBILE",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C24",
-                        "route_onestop_id": "r-s-c24"
-                    }
-                ]
+                "id": "s-sr607f49n7-crispi~nobile"
             }
         },
         {
@@ -945,14 +474,7 @@
             },
             "properties": {
                 "name": "CRISPI-AMEDEO",
-                "id": [
-                    {
-                        "operator_name": "Azienda Napoletana Mobilit\u00e0",
-                        "operator_onestop_id": "o-s-aziendanapoletanamobilit",
-                        "route_name": "C24",
-                        "route_onestop_id": "r-s-c24"
-                    }
-                ]
+                "id": "s-sr607fhhe1-crispi~amedeo"
             }
         }
     ]
