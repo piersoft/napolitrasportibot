@@ -39,6 +39,15 @@ foreach($parsed_json1->{'schedule_stop_pairs'} as $data12=>$csv11){
 }
 
 //echo $countl;
+$distanza=[];
+for ($l=0;$l<$countl;$l++)
+  {
+  //	if ( ($parsed_json1->{'schedule_stop_pairs'}[$l]->{'route_onestop_id'}) == $parsed_json->{'routes_serving_stop'}[$i]->{'route_onestop_id'})
+  //	{
+    $distanza[$l]['orari']=$parsed_json1->{'schedule_stop_pairs'}[$l]->{'destination_arrival_time'};
+  //	}
+  }
+  sort($distanza);
 
 for ($l=0;$l<$countl;$l++)
   {
@@ -46,8 +55,8 @@ for ($l=0;$l<$countl;$l++)
   if ( ($parsed_json1->{'schedule_stop_pairs'}[$l]->{'route_onestop_id'}) == $parsed_json->{'routes_serving_stop'}[$i]->{'route_onestop_id'}){
       $temp_c1 .="Linea:".$parsed_json->{'routes_serving_stop'}[$i]->{'route_name'}." ";
 
-      $temp_c1 .=$parsed_json1->{'schedule_stop_pairs'}[$l]->{'destination_arrival_time'};
-
+    //  $temp_c1 .=$parsed_json1->{'schedule_stop_pairs'}[$l]->{'destination_arrival_time'};
+$temp_c1 .=$distanza[$l]['orari'];
       $temp_c1 .="</br>";
 
       }

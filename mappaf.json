@@ -20,34 +20,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    14.228104826149,
-                    40.833000190857
-                ]
-            },
-            "properties": {
-                "name": "RIVIERA DI CHIAIA",
-                "id": "s-sr607c2t6y-rivieradichiaia"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    14.227839344183,
-                    40.832674552215
-                ]
-            },
-            "properties": {
-                "name": "RIVIERA DI CHIAIA 109",
-                "id": "s-sr607c27sd-rivieradichiaia109"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     14.23231861211,
                     40.833423310379
                 ]
@@ -118,6 +90,20 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    14.236505811091,
+                    40.838393963623
+                ]
+            },
+            "properties": {
+                "name": "PARCO MARGHERITA 30",
+                "id": "s-sr607fqsys-parcomargherita30"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     14.232508716957,
                     40.837867478807
                 ]
@@ -153,20 +139,6 @@
             "properties": {
                 "name": "TASSO-OSP.INTERNAZIONALE",
                 "id": "s-sr607dpzmk-tasso~ospinternazionale"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    14.225937256325,
-                    40.837391172936
-                ]
-            },
-            "properties": {
-                "name": "TASSO 116",
-                "id": "s-sr607dpp03-tasso116"
             }
         },
         {
@@ -328,20 +300,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    14.225886045742,
-                    40.836440451945
-                ]
-            },
-            "properties": {
-                "name": "VITTORIO EMANUELE-PARROCCHIA SS.REDENTORE",
-                "id": "s-sr607dncx0-vittorioemanuele~parrocchiassredentore"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     14.228386786098,
                     40.836349105769
                 ]
@@ -363,6 +321,20 @@
             "properties": {
                 "name": "VITTORIO EMANUELE-FUNICOLARE CHIAIA",
                 "id": "s-sr607fky25-vittorioemanuele~funicolarechiaia"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.238047115682,
+                    40.836638523619
+                ]
+            },
+            "properties": {
+                "name": "VIA DEI MILLE 45 FR.",
+                "id": "s-sr607fpfdt-viadeimille45fr"
             }
         },
         {
@@ -405,34 +377,6 @@
             "properties": {
                 "name": "CRISPI-PONTANO",
                 "id": "s-sr607ccq1q-crispi~pontano"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    14.226510477934,
-                    40.835525791968
-                ]
-            },
-            "properties": {
-                "name": "CRISPI-BENEVENTANO",
-                "id": "s-sr6079zkjt-crispi~beneventano"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    14.225536477493,
-                    40.835393140856
-                ]
-            },
-            "properties": {
-                "name": "CRISPI-ARCO MIRELLI",
-                "id": "s-sr6079yerj-crispi~arcomirelli"
             }
         },
         {

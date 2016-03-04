@@ -91,15 +91,24 @@ function start($telegram,$update)
 		}
 
 		//echo $countl;
+  $distanza=[];
+	for ($l=0;$l<$countl;$l++)
+		{
+		//	if ( ($parsed_json1->{'schedule_stop_pairs'}[$l]->{'route_onestop_id'}) == $parsed_json->{'routes_serving_stop'}[$i]->{'route_onestop_id'})
+		//	{
+			$distanza[$l]['orari']=$parsed_json1->{'schedule_stop_pairs'}[$l]->{'destination_arrival_time'};
+		//	}
+		}
+		sort($distanza);
 
 		for ($l=0;$l<$countl;$l++)
 		  {
 
 		  if ( ($parsed_json1->{'schedule_stop_pairs'}[$l]->{'route_onestop_id'}) == $parsed_json->{'routes_serving_stop'}[$i]->{'route_onestop_id'}){
-		      $temp_c1 .="Linea:".$parsed_json->{'routes_serving_stop'}[$i]->{'route_name'}." ";
+					$temp_c1 .="Linea:".$parsed_json->{'routes_serving_stop'}[$i]->{'route_name'}." ";
 
-		      $temp_c1 .=$parsed_json1->{'schedule_stop_pairs'}[$l]->{'destination_arrival_time'};
-
+		  //    $temp_c1 .=$parsed_json1->{'schedule_stop_pairs'}[$l]->{'destination_arrival_time'};
+ 					$temp_c1 .=$distanza[$l]['orari'];
 		      $temp_c1 .="\n";
 
 		      }
@@ -223,8 +232,15 @@ function location_manager($db,$telegram,$user_id,$chat_id,$location)
 
  }
 
+
+
+	$reply="Se vuoi vedere queste fermate su una mappa clicca qui:\n";
+	$reply .="http://www.piersoft.it/napolitrasportibot/locator.php?lon=".$lng."&lat=".$lat."&r=500";
+	$content = array('chat_id' => $chat_id, 'text' => $reply, 'reply_markup' =>$forcehide,'disable_web_page_preview'=>true);
+	$telegram->sendMessage($content);
+
 	$forcehide=$telegram->buildKeyBoardHide(true);
-	$content = array('chat_id' => $chat_id, 'text' => "Clicca su ID Fermata per gli orari", 'reply_markup' =>$forcehide);
+	$content = array('chat_id' => $chat_id, 'text' => "oppure clicca su ID Fermata per gli orari", 'reply_markup' =>$forcehide);
 	$telegram->sendMessage($content);
 
 	$today = date("Y-m-d H:i:s");
