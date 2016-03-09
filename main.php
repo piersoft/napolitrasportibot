@@ -64,7 +64,9 @@ function start($telegram,$update)
 		$text=str_replace("__","~",$text);
 		$text=str_replace("_","-",$text);
 
-
+		date_default_timezone_set("Europe/Rome");
+		$ora=date("H:i:s", time());
+		$ora2=date("H:i:s", time()+60*60);
 		$json_string = file_get_contents("https://transit.land/api/v1/onestop_id/".$text);
 		$parsed_json = json_decode($json_string);
 		$count = 0;
@@ -89,7 +91,16 @@ function start($telegram,$update)
 		foreach($parsed_json1->{'schedule_stop_pairs'} as $data12=>$csv11){
 		 $countl = $countl+1;
 		}
+		$start=0;
+		if ($countl == 0){
+			$content = array('chat_id' => $chat_id, 'text' => "Non ci sono arrivi nella prossima ora",'disable_web_page_preview'=>true);
+			$telegram->sendMessage($content);
+				$this->create_keyboard($telegram,$chat_id);
+			exit;
+		}else{
+		    $start=1;
 
+		}
 		//echo $countl;
   $distanza=[];
 	for ($l=0;$l<$countl;$l++)
@@ -114,6 +125,11 @@ function start($telegram,$update)
 		      }
 
 		}
+		}
+
+		if ($start==1){
+			$content = array('chat_id' => $chat_id, 'text' => "Linee in arrivo nella prossima ora:",'disable_web_page_preview'=>true);
+			$telegram->sendMessage($content);
 		}
 
 	$chunks = str_split($temp_c1, self::MAX_LENGTH);
