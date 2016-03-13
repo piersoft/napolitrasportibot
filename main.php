@@ -84,7 +84,7 @@ function start($telegram,$update)
 
 		$countl=0;
 
-		$json_string1 = file_get_contents("https://transit.land/api/v1/schedule_stop_pairs?destination_onestop_id=".$text);
+		$json_string1 = file_get_contents("https://transit.land/api/v1/schedule_stop_pairs?destination_onestop_id=".$text."&origin_departure_between=".$ora.",".$ora2);
 		$parsed_json1 = json_decode($json_string1);
 
 
